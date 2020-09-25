@@ -1,12 +1,12 @@
-{% set version = "2020.1.2" %}
+{% set version = "2020_online_course" %}
 
 package:
   name: pymor
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/pymor/pymor-{{ version }}.tar.gz
-  sha256: afeae05bb77a4e75235745bb5597f48f976d9ef1ad3d091beaa722c596bf6af3
+  git_url: https://github.com/pymor/pymor
+  git_tag: 2020_online_course
 
 build:
   number: 0

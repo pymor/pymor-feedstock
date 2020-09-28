@@ -52,6 +52,12 @@ requirements:
     - packaging
     - mpi4py  # [not win]
     - jupyter
+    - pythreejs
+    - ipywidgets
+    - slycot
+    - gmsh
+    - meshio
+    - nbresuse
 
 test:
   requires:
